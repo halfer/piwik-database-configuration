@@ -31,11 +31,10 @@ this file in your repo:
 (You don't need to add `[PluginsInstalled]` if you add this into the existing section of that name,
 of course).
 
-2. Add the following to the end of your `global.ini.php`. If you are Dockerising, you may be best
-just appending this to the existing file in the Piwik download, rather than maintaining your own
-copy:
+2. Add the following to the end of the `[Plugins]` section in your `global.ini.php`. If you are
+Dockerising, you will need a script to insert the additional line in the right block; it is not
+sufficient to merely append it.
 
-        [Plugins]
         Plugins[] = DatabaseConfiguration
 
 Running
