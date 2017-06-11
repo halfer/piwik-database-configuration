@@ -1,0 +1,14 @@
+{
+    "description": "Connects Piwik to a database via environment variables",
+    "homepage": "https://github.com/halfer/piwik-database-configuration",
+    "authors": [
+        {
+            "name": "Jon",
+            "email": "projects dot ws at jondh.me.uk",
+            "homepage": "https://blog.jondh.me.uk/"
+        }
+    ],
+    "license": "MIT",
+    "version": "0.0.1",
+    "theme": false
+}
