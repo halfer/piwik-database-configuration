@@ -5,6 +5,8 @@ This repo is a simple plugin for the Piwik web analytics package to set database
 based on environment variables. This is great for containerisation, since it means that one
 container image is good for all environments.
 
+It should work with both Piwik 2 and Piwik 3.
+
 Installation
 ---
 
@@ -61,6 +63,6 @@ here):
 Notes
 ---
 
-At some point I hope to publish a repo showing how I have set up Piwik in Docker. Note that there
-is [an official repo](https://github.com/piwik/docker-piwik) to Dockerise Piwik, but I didn't
-want to move my database to a container, nor to be forced to containerise my web server.
+I have a [Docker Piwik](https://github.com/halfer/piwik-apache-docker) project that
+may be of interest. In fact here I did not use the database plugin, as it was easier
+to move the configuration file to an on-host volume.
